@@ -16,6 +16,7 @@ html,
 body {
   overflow: hidden;
   color:white;
+  height:100vh;
 }
 
 .webgl {
@@ -36,7 +37,7 @@ header {
 }
 
 header .logo {
-font-size: 35px;
+font-size: 2rem;
 
 }
 
@@ -46,15 +47,16 @@ header ul {
 }
 header ul li{
 
-  display: inline-block;
-  margin-right: 25px;
+  /* display: inline-block; */
+  /* margin-right: 25px; */
+  margin-bottom: .5rem;
 }
 
 header ul li a {
 color: white;
 text-decoration:none;
-font-size: 17px;
-font-weight: 500;
+font-size: 1.5rem;
+font-weight: 700;
 } 
 
 main {
@@ -67,9 +69,9 @@ main {
 }
 
 main h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   white-space: nowrap; 
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   /* font-family: 'Crimson Pro', serif; */
   font-family:Inter;
   /* font-size: 122px; */
@@ -78,7 +80,7 @@ main h1 {
 main h2 {
   font-family:Inter;
 color: #f2e7e7;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 body {
   font-family: 'Crimson Pro', serif;
@@ -92,3 +94,45 @@ body {
 }
 
 
+@media screen and (min-width: 768px) {
+	body{
+        min-width: 1100px;
+		font-size: 20px;
+    }
+
+    main h1 {
+      font-size: 5rem;
+      white-space: nowrap; 
+      margin-bottom: 2rem;
+      /* font-family: 'Crimson Pro', serif; */
+      font-family:Inter;
+      /* font-size: 122px; */
+    }
+
+    main h2 {
+      font-family:Inter;
+    color: #f2e7e7;
+      font-size: 2.5rem;
+    }
+
+    header ul li{
+
+      display: inline-block; 
+      margin-right: 25px;
+      margin-bottom: .5rem;
+    }
+
+   header ul li a {
+      color: white;
+      text-decoration:none;
+      font-size: 2rem;
+      font-weight: 700;
+      } 
+
+
+
+
+
+
+
+  }
