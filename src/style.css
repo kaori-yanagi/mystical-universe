@@ -38,7 +38,7 @@ header {
 
 header .logo {
 font-size: 1.7rem;
-
+margin-top: 1rem;
 }
 
 header ul {
@@ -50,6 +50,7 @@ header ul li{
   /* display: inline-block; */
   /* margin-right: 25px; */
   margin-bottom: .5rem;
+　margin-top: 1rem;
 }
 
 header ul li a {
