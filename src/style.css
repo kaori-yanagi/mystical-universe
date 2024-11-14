@@ -88,6 +88,13 @@ body {
   font-size: 2.2px;
 }
 
+a {
+  color:white
+  
+  ;    /* リンクの色を透明に */
+  text-decoration: none; /* リンクの下線を消す */
+}
+
 .merriweather-black {
   font-family: "Merriweather", serif;
   font-weight: 900;
@@ -131,7 +138,12 @@ body {
       } 
 
 
-
+a {
+  color:white
+  
+  ;    /* リンクの色を透明に */
+  text-decoration: none; /* リンクの下線を消す */
+}
 
 
 
