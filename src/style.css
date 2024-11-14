@@ -75,6 +75,7 @@ main h1 {
   margin-bottom: 15px;
   /* font-family: 'Crimson Pro', serif; */
   font-family:Inter;
+letter-spacing: 0.1em;
   /* font-size: 122px; */
 }
 
@@ -113,6 +114,7 @@ a {
       /* font-family: 'Crimson Pro', serif; */
       font-family:Inter;
       /* font-size: 122px; */
+     letter-spacing: 0.1em;
     }
 
     main h2 {
