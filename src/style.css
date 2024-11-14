@@ -89,9 +89,7 @@ body {
 }
 
 a {
-  color:white
-  
-  ;    /* リンクの色を透明に */
+  color:white;    /* リンクの色を透明に */
   text-decoration: none; /* リンクの下線を消す */
 }
 
@@ -139,9 +137,7 @@ a {
 
 
 a {
-  color:white
-  
-  ;    /* リンクの色を透明に */
+  color:white;    /* リンクの色を透明に */
   text-decoration: none; /* リンクの下線を消す */
 }
 
